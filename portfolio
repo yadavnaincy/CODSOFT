@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .about, .skills, .projects, .resume, .contact, footer {
+            margin: 20px 0;
+        }
+        .about img {
+            max-width: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        .about p {
+            text-align: center;
+        }
+        .skills ul, .projects ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li, .projects ul li {
+            background: #f4f4f4;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .projects img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .projects h3 {
+            margin-top: 0;
+        }
+        .resume a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .contact p {
+            margin: 5px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Naincy Yadav</h1>
+            <p>I am a student looking for internships to upskill myself.</p>
+        </div>
+    </header>
+    <div class="container">
+        <section class="about">
+            <h2>About Me</h2>
+            <img src="https://cdn4.iconfinder.com/data/icons/business-conceptual-part1-1/513/business-woman-1024.png" alt="Your Photo" />
+            <p>
+                Hi, I'm Naincy Yadav, a student of Computer Engineering in Narsee Monjee School of Management Studies.
+            </p>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                </ul>
+        </section>
+        <section class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <h3>Portfolio Website</h3>
+                    <img src="https://www.webfx.com/blog/images/cdn.designinstruct.com/files/446-portfolio_website_design/portfolio_website_design_07service_page_example_statusbeur.jpg" alt="Portfolio Website" />
+                    <p>
+                        Developed a personal portfolio website to showcase my projects, skills, and experience. The website is fully responsive and includes sections for About Me, Skills, Projects, Resume, and Contact.
+                    </p>
+                </li>
+                <li>
+                    <h3>Weather App</h3>
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3966b14247509.5628deca36c6b.jpg" alt="Weather App" />
+    
+                    <p>
+                        Created a weather application using JavaScript and the OpenWeatherMap API. Users can search for the current weather and forecast for any city. The app features a clean and intuitive user interface.
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section class="resume">
+            <h2>Resume</h2>
+            <a href="resume/YourResume.pdf" download>Download My Resume</a>
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Email: yadavnaincy23@gmail.com</p>
+            <p>Phone: 9876543210</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Naincy Yadav. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
