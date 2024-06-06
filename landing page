@@ -1,106 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>landing Page</title>
-    <style>
-        h1, h2, p, ul, li {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        /* Header styles */
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 60px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-        }
-
-        nav li {
-            margin-right: 20px;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #fff;
-        }
-
-        /* Hero section styles */
-        .hero {
-            background-image: url("your-image.jpg");
-            background-size: cover;
-            text-align: center;
-            padding: 140px 0;
-            color: #fff;
-        }
-
-        .hero h2 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-
-        .hero p {
-            font-size: 18px;
-            margin-bottom: 30px;
-        }
-
-        .cta-button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #ff6600;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-
-        /* Footer styles */
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musician Band</title>
+  
+  <style>
+    body {
+      background-image: url("https://c.wallhere.com/photos/1d/05/concerts_silhouette_Lauren_Mayberry_Chvrches_stages_stage_shots_stage_light_singer-1387441.jpg!d");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .menu-bar {
+      text-align: center;
+      background-color: rgba(173, 10, 10, 0.7);
+      padding: 10px 0;
+    }
+    .menu-bar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .menu-bar ul li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+    .menu-bar ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    .menu-bar ul li a:hover {
+      color: #000;
+    }
+    .paragraph5 {
+      text-align: center;
+      font-size: 20px;
+      font-style: italic;
+      font-weight: bold;
+      color: #fff;
+      margin: 30px;
+    }
+    .lets-go-btn {
+      display: inline-block;
+      background: red;
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .lets-go-btn:hover {
+      background: #360101;
+    }
+    .icons {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .icons a {
+      margin-right: 20px;
+      color: #0ac623;
+    }
+    .icons a:hover {
+      color: #096a11;
+    }
+    .footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
-    <header>
-      <h1>CodSoft Internship</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <section class="hero">
-      <h2>Welcome to our Awesome Product</h2>
-      <p>Discover the amazing features that will revolutionize your life!</p>
-      <a href="#" class="cta-button">Get Started</a>
-    </section>
-
-    <footer>
-      <p>
-        &copy; 2024 Your Company. All rights reserved.<br />
-        Owner- Naincy Yadav <br />
-        Web Development Internship (Level 1:- Task 1)
-      </p>
-    </footer>
-  </body>
+  <header>
+    <h2 class="paragraph2">Musician Band</h2>
+  </header>
+  <div class="menu-bar">
+    <ul>
+      <li><a href="#">Music</a></li>
+      <li><a href="#">Band</a></li>
+      <li><a href="#">Tour</a></li>
+      <li><a href="#">Journal</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Newsletter</a></li>
+    </ul>
+  </div>
+  <div>
+    <p class="paragraph5">Welcome to our Musician Band. Visit for the archived<br>
+    journal posts, past events, band photos, as well as all their music, singles and albums.<br>
+    Celebrate thirteen years of One Direction by rediscovering their journey,<br>
+    right from the very beginning.Keep an eye out for hidden surprises!<br>
+    Relive your favourite 1D memories here and get your own personalised,<br>
+    extra-special anniversary mixtape by connecting to your Spotify,Apple Music,<br>
+    SoundCloud and Deezer!</p>
+  </div>
+  <div>
+    <a href="#" class="lets-go-btn">LET'S GO</a>
+  </div>
+  <footer class="footer">
+    <div class="icons">
+      <a href="#"><i class="fab fa-spotify"></i></a>
+      <a href="#"><i class="fab fa-apple"></i></a>
+      <a href="#"><i class="fab fa-soundcloud"></i></a>
+      <a href="#"><i class="fab fa-deezer"></i></a>
+    </div>
+    <p>&copy; 2022 SYCO MUSIC / SONY MUSIC ENTERTAINMENT UK LTD</p>
+    <p>PRIVACY AND COOKIE POLICY</p>
+  </footer>
+</body>
 </html>
+
